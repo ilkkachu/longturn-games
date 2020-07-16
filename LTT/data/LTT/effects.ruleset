@@ -1845,7 +1845,7 @@ type    = "Output_Bonus"
 value   = 25
 reqs    =
     { "type", "name", "range"
-      "Building", "Bank", "City"
+      "Building", "Mercantile Exchange", "City"
       "OutputType", "Luxury", "Local"
     }
 
@@ -3262,7 +3262,7 @@ reqs    =
 
 [effect_great_library_1]
 type    = "Output_Add_Tile"
-value   = 4
+value   = 10
 reqs    =
     { "type", "name", "range"
       "Building", "Great Library", "City"
@@ -3405,7 +3405,7 @@ reqs    =
 
 [effect_isaac_newtons_college_1]
 type    = "Output_Add_Tile"
-value   = 6
+value   = 12
 reqs    =
     { "type", "name", "range"
       "Building", "Isaac Newton's College", "City"
